@@ -1,25 +1,37 @@
 {
-  "name": "firstpromoter-node-api",
-  "version": "1.0.0",
-  "description": "A Node JS API wrapper (with TypeScript bindings) for First Promoter",
-  "main": "lib/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/elby22/firstpromoter-node-api.git"
-  },
-  "keywords": [
-    "FirstPromoter",
-    "node",
-    "typescript",
-    "js"
-  ],
-  "author": "Elby Basolis",
-  "license": "GPL-3.0-or-later",
-  "bugs": {
-    "url": "https://github.com/elby22/firstpromoter-node-api/issues"
-  },
-  "homepage": "https://github.com/elby22/firstpromoter-node-api#readme"
+	"name": "firstpromoter-node-api",
+	"version": "0.0.1",
+	"description": "A Node JS API wrapper (with TypeScript bindings) for First Promoter",
+	"main": "lib/index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+        "build": "tsc",
+        "build:run": "tsc && node ./lib/index.js",
+        "start": "npm run build:run"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/elby22/firstpromoter-node-api.git"
+	},
+	"keywords": [
+		"FirstPromoter",
+		"node",
+		"typescript",
+		"js"
+	],
+	"author": "Elby Basolis",
+	"license": "GPL-3.0-or-later",
+	"bugs": {
+		"url": "https://github.com/elby22/firstpromoter-node-api/issues"
+	},
+	"homepage": "https://github.com/elby22/firstpromoter-node-api#readme",
+	"devDependencies": {
+		"nodemon": "^1.19.1",
+		"typescript": "^3.5.2"
+	},
+	"dependencies": {
+		"@types/request-promise-native": "^1.0.16",
+		"request": "^2.88.0",
+		"request-promise-native": "^1.0.7"
+	}
 }
