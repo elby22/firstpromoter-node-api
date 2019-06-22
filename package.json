@@ -1,0 +1,25 @@
+{
+  "name": "firstpromoter-node-api",
+  "version": "1.0.0",
+  "description": "A Node JS API wrapper (with TypeScript bindings) for First Promoter",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elby22/firstpromoter-node-api.git"
+  },
+  "keywords": [
+    "FirstPromoter",
+    "node",
+    "typescript",
+    "js"
+  ],
+  "author": "Elby Basolis",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/elby22/firstpromoter-node-api/issues"
+  },
+  "homepage": "https://github.com/elby22/firstpromoter-node-api#readme"
+}
