@@ -17,7 +17,8 @@
 		"FirstPromoter",
 		"node",
 		"typescript",
-		"js"
+        "js",
+        "promise"
 	],
 	"author": "Elby Basolis",
 	"license": "GPL-3.0-or-later",
