@@ -5,9 +5,9 @@ export interface Promoter {
     temp_password:        string;
     default_promotion_id: number;
     default_ref_id:       string;
-    earnings_balance:     number;
-    current_balance:      number;
-    paid_balance:         number;
+    earnings_balance:     any;
+    current_balance:      any;
+    paid_balance:         any;
     note:                 string;
     auth_token:           string;
     profile:              Profile;
